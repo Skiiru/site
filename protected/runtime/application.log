@@ -1,0 +1,993 @@
+2014/04/16 22:32:06 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.tablePrefix" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(513): CComponent->__set('tablePrefix', 't_')
+#1 Z:\home\test\www\framework\base\CModule.php(86): CModule->configure(Array)
+#2 Z:\home\test\www\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 Z:\home\test\www\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 Z:\home\test\www\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 Z:\home\test\www\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/model/index')
+#6 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#7 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 Z:\home\test\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://test/index.php/gii/default/index
+---
+2014/04/16 22:32:13 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.tablePrefix" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(513): CComponent->__set('tablePrefix', 't_')
+#1 Z:\home\test\www\framework\base\CModule.php(86): CModule->configure(Array)
+#2 Z:\home\test\www\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 Z:\home\test\www\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 Z:\home\test\www\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 Z:\home\test\www\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/default/ind...')
+#6 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/ind...')
+#7 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 Z:\home\test\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/gii/default/index
+HTTP_REFERER=http://test/index.php/gii/default/login
+---
+2014/04/16 22:32:14 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.tablePrefix" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(513): CComponent->__set('tablePrefix', 't_')
+#1 Z:\home\test\www\framework\base\CModule.php(86): CModule->configure(Array)
+#2 Z:\home\test\www\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 Z:\home\test\www\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 Z:\home\test\www\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 Z:\home\test\www\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/default/log...')
+#6 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#7 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 Z:\home\test\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/gii/default/login
+---
+2014/04/16 22:32:19 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.tablePrefix" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(513): CComponent->__set('tablePrefix', 't_')
+#1 Z:\home\test\www\framework\base\CModule.php(86): CModule->configure(Array)
+#2 Z:\home\test\www\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 Z:\home\test\www\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 Z:\home\test\www\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 Z:\home\test\www\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/default/log...')
+#6 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#7 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 Z:\home\test\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/gii/default/login
+---
+2014/04/16 22:32:19 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.tablePrefix" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(513): CComponent->__set('tablePrefix', 't_')
+#1 Z:\home\test\www\framework\base\CModule.php(86): CModule->configure(Array)
+#2 Z:\home\test\www\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 Z:\home\test\www\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 Z:\home\test\www\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 Z:\home\test\www\framework\web\CWebApplication.php(276): CWebApplication->createController('gii/default/log...')
+#6 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#7 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 Z:\home\test\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/gii/default/login
+---
+2014/04/16 22:53:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`test`.`rate`, CONSTRAINT `rate_ibfk_2` FOREIGN KEY (`student_id`) REFERENCES `student` (`record_book`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `rate` (`discipline_id`, `student_id`, `rate`) VALUES (:yp0, :yp1, :yp2).
+in Z:\home\test\www\protected\controllers\RateController.php (73)
+in Z:\home\test\www\index.php (13)
+2014/04/16 22:53:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`test`.`rate`, CONSTRAINT `rate_ibfk_2` FOREIGN KEY (`student_id`) REFERENCES `student` (`record_book`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `rate` (`discipline_id`, `student_id`, `rate`) VALUES (:yp0, :yp1, :yp2)' in Z:\home\test\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\test\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\test\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\test\www\protected\controllers\RateController.php(73): CActiveRecord->save()
+#3 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): RateController->actionCreate()
+#4 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#11 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('rate/create')
+#14 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 Z:\home\test\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/rate/create
+HTTP_REFERER=http://test/index.php/rate/create
+---
+2014/04/16 22:54:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`test`.`rate`, CONSTRAINT `rate_ibfk_2` FOREIGN KEY (`student_id`) REFERENCES `student` (`record_book`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `rate` (`discipline_id`, `student_id`, `rate`) VALUES (:yp0, :yp1, :yp2).
+in Z:\home\test\www\protected\controllers\RateController.php (73)
+in Z:\home\test\www\index.php (13)
+2014/04/16 22:54:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`test`.`rate`, CONSTRAINT `rate_ibfk_2` FOREIGN KEY (`student_id`) REFERENCES `student` (`record_book`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `rate` (`discipline_id`, `student_id`, `rate`) VALUES (:yp0, :yp1, :yp2)' in Z:\home\test\www\framework\db\CDbCommand.php:358
+Stack trace:
+#0 Z:\home\test\www\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 Z:\home\test\www\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 Z:\home\test\www\protected\controllers\RateController.php(73): CActiveRecord->save()
+#3 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): RateController->actionCreate()
+#4 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#11 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('create')
+#13 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('rate/create')
+#14 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 Z:\home\test\www\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/rate/create
+HTTP_REFERER=http://test/index.php/rate/create
+---
+2014/04/20 22:14:57 [error] [exception.CException] exception 'CException' with message 'Property "Discipline.Имя дисциплины" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('?????? ????????...')
+#1 Z:\home\test\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('?????? ????????...')
+#2 Z:\home\test\www\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Discipline), '?????? ????????...')
+#3 Z:\home\test\www\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Discipline), '?????? ????????...', Array, Array)
+#4 Z:\home\test\www\protected\views\discipline\_form.php(24): CActiveForm->dropDownList(Object(Discipline), '?????? ????????...', Array)
+#5 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#6 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#7 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#8 Z:\home\test\www\protected\views\discipline\create.php(18): CController->renderPartial('_form', Array)
+#9 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#10 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#11 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 Z:\home\test\www\protected\controllers\DisciplineController.php(79): CController->render('create', Array)
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): DisciplineController->actionCreate()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('create')
+#24 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('discipline/crea...')
+#25 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\test\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=discipline/create
+HTTP_REFERER=http://test/index.php?r=discipline
+---
+2014/04/20 22:26:04 [error] [exception.CException] exception 'CException' with message 'Property "Discipline.teacher_name" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('teacher_name')
+#1 Z:\home\test\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('teacher_name')
+#2 Z:\home\test\www\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Discipline), 'teacher_name')
+#3 Z:\home\test\www\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Discipline), 'teacher_name', Array, Array)
+#4 Z:\home\test\www\protected\views\discipline\_form.php(24): CActiveForm->dropDownList(Object(Discipline), 'teacher_name', Array)
+#5 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#6 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#7 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#8 Z:\home\test\www\protected\views\discipline\create.php(18): CController->renderPartial('_form', Array)
+#9 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#10 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#11 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 Z:\home\test\www\protected\controllers\DisciplineController.php(79): CController->render('create', Array)
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): DisciplineController->actionCreate()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('create')
+#24 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('discipline/crea...')
+#25 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\test\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=discipline/create
+HTTP_REFERER=http://test/index.php?r=discipline
+---
+2014/04/20 22:26:40 [error] [exception.CException] exception 'CException' with message 'Property "Discipline.teacher_name" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('teacher_name')
+#1 Z:\home\test\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('teacher_name')
+#2 Z:\home\test\www\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Discipline), 'teacher_name')
+#3 Z:\home\test\www\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Discipline), 'teacher_name', Array, Array)
+#4 Z:\home\test\www\protected\views\discipline\_form.php(24): CActiveForm->dropDownList(Object(Discipline), 'teacher_name', Array)
+#5 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#6 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#7 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#8 Z:\home\test\www\protected\views\discipline\create.php(18): CController->renderPartial('_form', Array)
+#9 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#10 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#11 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 Z:\home\test\www\protected\controllers\DisciplineController.php(79): CController->render('create', Array)
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): DisciplineController->actionCreate()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('create')
+#24 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('discipline/crea...')
+#25 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\test\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=discipline/create
+HTTP_REFERER=http://test/index.php?r=discipline
+---
+2014/04/20 22:26:40 [error] [exception.CException] exception 'CException' with message 'Property "Discipline.teacher_name" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('teacher_name')
+#1 Z:\home\test\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('teacher_name')
+#2 Z:\home\test\www\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Discipline), 'teacher_name')
+#3 Z:\home\test\www\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Discipline), 'teacher_name', Array, Array)
+#4 Z:\home\test\www\protected\views\discipline\_form.php(24): CActiveForm->dropDownList(Object(Discipline), 'teacher_name', Array)
+#5 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#6 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#7 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#8 Z:\home\test\www\protected\views\discipline\create.php(18): CController->renderPartial('_form', Array)
+#9 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#10 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#11 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#13 Z:\home\test\www\protected\controllers\DisciplineController.php(79): CController->render('create', Array)
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): DisciplineController->actionCreate()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#22 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('create')
+#24 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('discipline/crea...')
+#25 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 Z:\home\test\www\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=discipline/create
+HTTP_REFERER=http://test/index.php?r=discipline
+---
+2014/04/20 22:41:47 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.bootstrap" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(105): CComponent->__get('bootstrap')
+#1 Z:\home\test\www\themes\bootstrap\views\layouts\main.php(12): CModule->__get('bootstrap')
+#2 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#3 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#4 Z:\home\test\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#5 Z:\home\test\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 Z:\home\test\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 Z:\home\test\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\test\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\test\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#11 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#13 Z:\home\test\www\protected\controllers\SiteController.php(32): CController->render('index')
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#19 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#20 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\test\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://test/index.php?r=discipline/index
+---
+2014/04/20 22:44:07 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.bootstrap" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(105): CComponent->__get('bootstrap')
+#1 Z:\home\test\www\themes\bootstrap\views\layouts\main.php(12): CModule->__get('bootstrap')
+#2 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#3 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#4 Z:\home\test\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#5 Z:\home\test\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 Z:\home\test\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 Z:\home\test\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\test\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\test\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#11 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#13 Z:\home\test\www\protected\controllers\SiteController.php(32): CController->render('index')
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#19 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#20 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\test\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://test/index.php?r=discipline/index
+---
+2014/04/20 22:44:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.bootstrap" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\home\test\www\framework\base\CModule.php(105): CComponent->__get('bootstrap')
+#1 Z:\home\test\www\themes\bootstrap\views\layouts\main.php(12): CModule->__get('bootstrap')
+#2 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#3 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#4 Z:\home\test\www\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#5 Z:\home\test\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 Z:\home\test\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 Z:\home\test\www\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 Z:\home\test\www\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 Z:\home\test\www\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#11 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#12 Z:\home\test\www\framework\web\CController.php(784): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#13 Z:\home\test\www\protected\controllers\SiteController.php(32): CController->render('index')
+#14 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#19 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#20 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\test\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://test/index.php?r=discipline/index
+---
+2014/04/20 22:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in Z:\home\test\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\test\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=discipline/view&r=1
+HTTP_REFERER=http://test/index.php?r=discipline/index
+---
+2014/04/20 22:55:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id1".' in Z:\home\test\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('id1')
+#1 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\test\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=discipline/view&r=id1
+HTTP_REFERER=http://test/index.php?r=discipline/index
+---
+2014/04/20 23:04:45 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in Z:\home\test\www\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 Z:\home\test\www\framework\web\CBaseController.php(173): CDetailView->run()
+#1 Z:\home\test\www\protected\views\discipline\view.php(27): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#3 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', Array, true)
+#4 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', Array, true)
+#5 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 Z:\home\test\www\protected\controllers\DisciplineController.php(56): CController->render('view', Array)
+#7 [internal function]: DisciplineController->actionView('1')
+#8 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DisciplineController), Array)
+#9 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DisciplineController), Object(ReflectionMethod), Array)
+#10 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\test\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 Z:\home\test\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 Z:\home\test\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 Z:\home\test\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 Z:\home\test\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 Z:\home\test\www\framework\web\CController.php(291): CFilterChain->run()
+#17 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('view')
+#19 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('discipline/view')
+#20 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 Z:\home\test\www\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=discipline/view&id=1
+HTTP_REFERER=http://test/index.php?r=discipline/index
+---
+2014/04/20 23:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main".' in Z:\home\test\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#1 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\test\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=main
+---
+2014/04/21 00:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main".' in Z:\home\test\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#1 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\test\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=main
+---
+2014/04/21 00:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/index".' in Z:\home\test\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#1 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\test\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=main/index
+---
+2014/04/21 00:07:11 [error] [exception.CException] exception 'CException' with message 'Property "CPortlet.type" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWidgetFactory.php(161): CComponent->__set('type', 'pills')
+#1 Z:\home\test\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(MainController), 'Bootstrap.widge...', Array)
+#2 Z:\home\test\www\framework\web\CBaseController.php(189): CBaseController->createWidget('Bootstrap.widge...', Array)
+#3 Z:\home\test\www\protected\views\main\index.php(14): CBaseController->beginWidget('Bootstrap.widge...', Array)
+#4 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#5 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', NULL, true)
+#6 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', NULL, true)
+#7 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 Z:\home\test\www\protected\controllers\MainController.php(8): CController->render('index')
+#9 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#10 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#14 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#15 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\test\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=main/index
+---
+2014/04/21 00:09:41 [error] [exception.CException] exception 'CException' with message 'Property "CPortlet.type" is not defined.' in Z:\home\test\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWidgetFactory.php(161): CComponent->__set('type', 'pills')
+#1 Z:\home\test\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(MainController), 'Bootstrap.widge...', Array)
+#2 Z:\home\test\www\framework\web\CBaseController.php(189): CBaseController->createWidget('Bootstrap.widge...', Array)
+#3 Z:\home\test\www\protected\views\main\index.php(14): CBaseController->beginWidget('Bootstrap.widge...', Array)
+#4 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#5 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', NULL, true)
+#6 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', NULL, true)
+#7 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 Z:\home\test\www\protected\controllers\MainController.php(8): CController->render('index')
+#9 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#10 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#14 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#15 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\test\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=main/index
+---
+2014/04/21 00:10:33 [error] [exception.CException] exception 'CException' with message 'Alias "Bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file.' in Z:\home\test\www\framework\YiiBase.php:347
+Stack trace:
+#0 Z:\home\test\www\framework\web\CWidgetFactory.php(146): YiiBase::import('Bootstrap.widge...', true)
+#1 Z:\home\test\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(MainController), 'Bootstrap.widge...', Array)
+#2 Z:\home\test\www\framework\web\CBaseController.php(189): CBaseController->createWidget('Bootstrap.widge...', Array)
+#3 Z:\home\test\www\protected\views\main\index.php(14): CBaseController->beginWidget('Bootstrap.widge...', Array)
+#4 Z:\home\test\www\framework\web\CBaseController.php(126): require('Z:\home\test\ww...')
+#5 Z:\home\test\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\test\ww...', NULL, true)
+#6 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', NULL, true)
+#7 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 Z:\home\test\www\protected\controllers\MainController.php(8): CController->render('index')
+#9 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#10 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#14 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#15 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\test\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=main/index
+---
+2014/04/21 00:11:12 [error] [exception.CException] exception 'CException' with message 'MainController contains improperly nested widget tags in its view "Z:\home\test\www\protected\views\main\index.php". A CPortlet widget does not have an endWidget() call.' in Z:\home\test\www\framework\web\CBaseController.php:101
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\test\ww...', NULL, true)
+#1 Z:\home\test\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#2 Z:\home\test\www\protected\controllers\MainController.php(8): CController->render('index')
+#3 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#4 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#9 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\test\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=main/index
+---
+2014/04/26 00:32:05 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "loadModel".' in Z:\home\test\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\test\www\protected\controllers\MainController.php(9): CComponent->__call('loadModel', Array)
+#1 Z:\home\test\www\protected\controllers\MainController.php(9): MainController->loadModel(NULL)
+#2 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#3 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#8 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\test\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=main/index
+HTTP_REFERER=http://test/index.php?r=db/index
+---
+2014/04/27 22:17:25 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "loadModel".' in Z:\home\test\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\test\www\protected\controllers\MainController.php(9): CComponent->__call('loadModel', Array)
+#1 Z:\home\test\www\protected\controllers\MainController.php(9): MainController->loadModel(NULL)
+#2 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#3 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#8 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\test\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=main/index
+HTTP_REFERER=http://test/index.php
+---
+2014/04/27 22:17:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:17:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:19:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:19:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:19:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:19:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:19:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:19:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/27 22:20:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/28 11:03:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/28 11:03:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in Z:\home\test\www\framework\web\CController.php:336
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#4 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#5 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 Z:\home\test\www\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=main/disc
+---
+2014/04/28 11:03:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1436 Thread stack overrun:  6892 bytes used of a 131072 byte stack, and 128000 bytes needed.  Use 'mysqld --thread_stack=#' to specify a bigger stack.. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:03:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1436 Thread stack overrun:  6892 bytes used of a 131072 byte stack, and 128000 bytes needed.  Use 'mysqld --thread_stack=#' to specify a bigger stack.. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/28 11:17:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'studebt.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:17:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'studebt.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/28 11:17:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'studebt.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:17:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'studebt.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/28 11:18:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:18:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/28 11:20:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:20:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/28 11:20:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:20:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/28 11:20:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (14)
+in Z:\home\test\www\index.php (13)
+2014/04/28 11:20:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'student.student_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(14): Main::rate_caf('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/04/29 21:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dsc".' in Z:\home\test\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\test\www\framework\web\CController.php(270): CController->missingAction('dsc')
+#1 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('dsc')
+#2 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/dsc')
+#3 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\test\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=main/dsc&id=1
+---
+2014/04/29 21:10:25 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "loadModel".' in Z:\home\test\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\test\www\protected\controllers\MainController.php(9): CComponent->__call('loadModel', Array)
+#1 Z:\home\test\www\protected\controllers\MainController.php(9): MainController->loadModel(NULL)
+#2 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#3 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#8 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\test\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=main/index
+HTTP_REFERER=http://test/index.php?r=groop/index
+---
+2014/04/29 21:30:38 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "loadModel".' in Z:\home\test\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\test\www\protected\controllers\MainController.php(9): CComponent->__call('loadModel', Array)
+#1 Z:\home\test\www\protected\controllers\MainController.php(9): MainController->loadModel(NULL)
+#2 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#3 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#8 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\test\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=main/index
+HTTP_REFERER=http://test/index.php?r=main/fac&id=1
+---
+2014/04/29 21:53:53 [error] [php] include(CHtnl.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\test\www\framework\YiiBase.php:427)
+Stack trace:
+#0 Z:\home\test\www\protected\views\main\index.php(9): spl_autoload_call()
+#1 Z:\home\test\www\framework\web\CBaseController.php(126): require()
+#2 Z:\home\test\www\framework\web\CBaseController.php(95): MainController->renderInternal()
+#3 Z:\home\test\www\framework\web\CController.php(869): MainController->renderFile()
+#4 Z:\home\test\www\framework\web\CController.php(782): MainController->renderPartial()
+#5 Z:\home\test\www\protected\controllers\MainController.php(15): MainController->render()
+#6 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 Z:\home\test\www\framework\web\CController.php(286): MainController->runAction()
+#9 Z:\home\test\www\framework\web\CController.php(265): MainController->runActionWithFilters()
+#10 Z:\home\test\www\framework\web\CWebApplication.php(282): MainController->run()
+#11 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\test\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=main/index
+in Z:\home\test\www\protected\views\main\index.php (9)
+in Z:\home\test\www\protected\controllers\MainController.php (15)
+in Z:\home\test\www\index.php (13)
+2014/04/29 21:55:33 [error] [php] Invalid argument supplied for foreach() (Z:\home\test\www\framework\web\helpers\CHtml.php:2325)
+Stack trace:
+#0 Z:\home\test\www\framework\web\CBaseController.php(126): require()
+#1 Z:\home\test\www\framework\web\CBaseController.php(95): MainController->renderInternal()
+#2 Z:\home\test\www\framework\web\CController.php(869): MainController->renderFile()
+#3 Z:\home\test\www\framework\web\CController.php(782): MainController->renderPartial()
+#4 Z:\home\test\www\protected\controllers\MainController.php(15): MainController->render()
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\test\www\framework\web\CController.php(286): MainController->runAction()
+#8 Z:\home\test\www\framework\web\CController.php(265): MainController->runActionWithFilters()
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): MainController->run()
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=main/index
+in Z:\home\test\www\protected\views\main\index.php (9)
+in Z:\home\test\www\protected\controllers\MainController.php (15)
+in Z:\home\test\www\index.php (13)
+2014/04/29 22:14:00 [error] [php] Invalid argument supplied for foreach() (Z:\home\test\www\framework\web\helpers\CHtml.php:2325)
+Stack trace:
+#0 Z:\home\test\www\framework\web\CBaseController.php(126): require()
+#1 Z:\home\test\www\framework\web\CBaseController.php(95): MainController->renderInternal()
+#2 Z:\home\test\www\framework\web\CController.php(869): MainController->renderFile()
+#3 Z:\home\test\www\framework\web\CController.php(782): MainController->renderPartial()
+#4 Z:\home\test\www\protected\controllers\MainController.php(15): MainController->render()
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\test\www\framework\web\CController.php(286): MainController->runAction()
+#8 Z:\home\test\www\framework\web\CController.php(265): MainController->runActionWithFilters()
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): MainController->run()
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=main/index
+in Z:\home\test\www\protected\views\main\index.php (11)
+in Z:\home\test\www\protected\controllers\MainController.php (15)
+in Z:\home\test\www\index.php (13)
+2014/04/29 22:16:48 [error] [php] Invalid argument supplied for foreach() (Z:\home\test\www\framework\web\helpers\CHtml.php:2325)
+Stack trace:
+#0 Z:\home\test\www\framework\web\CBaseController.php(126): require()
+#1 Z:\home\test\www\framework\web\CBaseController.php(95): MainController->renderInternal()
+#2 Z:\home\test\www\framework\web\CController.php(869): MainController->renderFile()
+#3 Z:\home\test\www\framework\web\CController.php(782): MainController->renderPartial()
+#4 Z:\home\test\www\protected\controllers\MainController.php(15): MainController->render()
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 Z:\home\test\www\framework\web\CController.php(286): MainController->runAction()
+#8 Z:\home\test\www\framework\web\CController.php(265): MainController->runActionWithFilters()
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): MainController->run()
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=main/index
+in Z:\home\test\www\protected\views\main\index.php (11)
+in Z:\home\test\www\protected\controllers\MainController.php (15)
+in Z:\home\test\www\index.php (13)
+2014/05/03 14:09:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gr.groop_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);.
+in Z:\home\test\www\protected\models\Main.php (6)
+in Z:\home\test\www\protected\controllers\MainController.php (19)
+in Z:\home\test\www\index.php (13)
+2014/05/03 14:09:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gr.groop_name' in 'field list'. The SQL statement executed was: CALL show_usp_by_caf(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(6): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(19): Main::rate_caf('1')
+#3 [internal function]: MainController->actionCaf('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('caf')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/caf')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/caf&id=1
+---
+2014/05/03 14:19:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE test.show_usp_by_gr does not exist. The SQL statement executed was: CALL show_usp_by_gr(1);.
+in Z:\home\test\www\protected\models\Main.php (18)
+in Z:\home\test\www\protected\controllers\MainController.php (49)
+in Z:\home\test\www\index.php (13)
+2014/05/03 14:19:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE test.show_usp_by_gr does not exist. The SQL statement executed was: CALL show_usp_by_gr(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(18): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(49): Main->rate_gr('1')
+#3 [internal function]: MainController->actionDisc('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('disc')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/disc')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/disc&id=1
+---
+2014/05/03 14:23:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE test.show_usp_by_gr does not exist. The SQL statement executed was: CALL show_usp_by_gr(1);.
+in Z:\home\test\www\protected\models\Main.php (18)
+in Z:\home\test\www\protected\controllers\MainController.php (39)
+in Z:\home\test\www\index.php (13)
+2014/05/03 14:23:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE test.show_usp_by_gr does not exist. The SQL statement executed was: CALL show_usp_by_gr(1);' in Z:\home\test\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\test\www\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\test\www\protected\models\Main.php(18): CDbCommand->queryAll()
+#2 Z:\home\test\www\protected\controllers\MainController.php(39): Main->rate_gr('1')
+#3 [internal function]: MainController->actionGr('1')
+#4 Z:\home\test\www\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MainController), Array)
+#5 Z:\home\test\www\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainController), Object(ReflectionMethod), Array)
+#6 Z:\home\test\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\test\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\test\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\test\www\framework\web\CWebApplication.php(282): CController->run('gr')
+#10 Z:\home\test\www\framework\web\CWebApplication.php(141): CWebApplication->runController('main/gr')
+#11 Z:\home\test\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\test\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=main/gr&id=1
+---
