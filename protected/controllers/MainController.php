@@ -74,5 +74,25 @@
             ));
             $this->render('prep',array('dataProvider'=>$dataProvider));
         }
+        public function actionDDList()
+        {
+            $country = Yii::app()->request->getParam('country');
+            $city = Yii::app()->request->getParam('city');
+            if ($country !== null)
+            {
+                $data = Yii::app()->db->createCommand()
+                    ->selectDistinct('')
+                    ->from('{{address}}')
+                    ->where('country=:country', array(':country'=>$country))
+                    ->query();
+                while(($row = $data->read()) != false)
+                {
+                    $params=array('value'=>$row['city']);
+                    if(($city !== null)&&($row['city']==$city)) // если было передан город и в результатах он встречается,
+                        $params['selected']=true; // то сделать элемент списка выбранным
+                    echo CHtml::tag('option', $params, CHtml::endcode($row['city']), true);
+                }
+            }
+        }
     }
 ?>

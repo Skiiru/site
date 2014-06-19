@@ -7,6 +7,14 @@
 
 Выберите функцию:
 
+
+
 	<div class="row">
-		<?php echo CHtml::dropDownList('Выберите функцию:',1,$dropDownArray, array($_POST['selected']=>'select')); ?>
+		<?php echo CHtml::dropDownList('Выберите функцию:',1,$dropDownArray, array($_POST['selected']=>'select'));
+
+        ?>
+	</div>  <div class="row">
+    <?php
+
+    ?>
 	</div>
