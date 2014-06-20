@@ -15,26 +15,28 @@
     ),
     'emptyText'=>'Пустая БД',
 )); ?>
-<canvas id="myChart" width="400" height="400">
-</canvas>
-<div class="btn">
+<canvas id="myChart" width="400" height="400"></canvas>
 <script src="Chart.js"></script>
 <script>
     var dataforchart = {
-        labels: <?php foreach($dataProvider->getData as $data)
-         {
-            echo $data->
-         }
-         }?>,
+        labels: <?php
+        $data=$dataProvider->getData();
+        $dsc=array();
+        foreach($dataProvider->getData() as $data) array_push($dsc,$data['discipline_name']);
+        echo json_encode($dsc); ?>,
         datasets:[
             {
                 fillColor:"rgba(220,220,220,0.5)",
-                strokeColor:"rgba(100,100,100,1)",
-                data:<?php echo json_encode($dataProvider->getSort()->attributes[1])?>
-            }
+                strokeColor:"rgba(220,220,220,1)",
+                data:
+                <?php
+                $data=$dataProvider->getData();
+                $r=array();
+                foreach($dataProvider->getData() as $data) array_push($r,$data['rate']);
+                echo json_encode($r);?>
+            }]
     }
     var ch=document.getElementById('myChart').getContext('2d');
-    new Chart(ch).Bar(dataforchart);
+    new Chart(ch).Line(dataforchart);
     //var myChart= new Chart(document.getElementById("myChart").getContext("2d").Pie(dataforchart));
 </script>
-</div>

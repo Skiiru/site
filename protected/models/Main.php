@@ -45,7 +45,7 @@
         }
         public function rate_st($id)
         {
-           $r=Yii::app()->db->CreateCommand()->
+           return Yii::app()->db->CreateCommand()->
                select('discipline_name, rate')->
                from('student st')->
                join('rate r','r.student_id=st.record_book')->
@@ -53,7 +53,7 @@
                where('st.record_book=:id',array(':id'=>$id))->
                group('rate')->
                queryAll();
-            return $r;
+           // return $r;
         }
         public function rate_prep($id)
         {
